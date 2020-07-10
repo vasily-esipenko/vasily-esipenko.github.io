@@ -69,13 +69,13 @@ button {
 }
 
 .about-links--footer {
-    margin: 15px 0 0;
+    margin: 15px 0;
     display: inline-block;
 }
 
 .about-a {
-    padding: 0 12px;
-    margin-bottom: 15px;
+    margin: 0 5px 15px;
+    padding: 0 10px;
 
     color: #333;
     font-size: 32px;
@@ -87,6 +87,8 @@ button {
     text-decoration: none;
     color: #fff;
     font-size: 15px;
+
+    padding: 0 8px;
 }
 
 .about-a:hover {
