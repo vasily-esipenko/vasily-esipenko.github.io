@@ -1,3 +1,3 @@
 # vasily-esipenko.github.io
 
-Personal website using GitHub Pages
+Personal responsive website using GitHub Pages
