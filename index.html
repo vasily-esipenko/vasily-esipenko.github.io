@@ -100,12 +100,12 @@
     
             <section class="upcoming">
                 <h1 class="header">Upcoming Projects</h1>
-                <div class="upcoming-item">
+                <div class="upcoming-item" v-for="item in upcoming">
                     <div class="upcoming-title">
-                        <h3 class="upcoming-header">Telegram Currency Bot</h3>
+                        <h3 class="upcoming-header">{{ item.title }}</h3>
                     </div>
                     <div class="text-about">
-                        <p>Advanced Telegram bot that will show currency rates, notify about changes and support at least 3 languages</p>
+                        <p>{{ item.description }}</p>
                     </div>
                 </div>
             </section>
