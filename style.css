@@ -17,18 +17,17 @@ body {
     box-sizing: border-box;
 }
 
-a {
+a, button {
     text-align: center;
     margin: 0 auto;
+    font-family: 'Open Sans', sans-serif;
 }
-
-button {
-    text-align: center;
-    margin: 0 auto;
+a:hover,
+button:hover {
+    cursor: pointer;
 }
 
 /*About*/
-
 .about {
     margin: 0;
     width: 100%;
@@ -105,20 +104,17 @@ button {
 }
 
 /*Section*/
-
 section {
     margin: 30px auto;
     padding: 10px;
 }
 
 /*Tech Skills*/
-
 .tech-skills {
     margin: 10px;
 }
 
 /*Header*/
-
 .header {
     text-align: center;
     font-size: 40px;
@@ -136,7 +132,6 @@ section {
 }
 
 /*Description*/
-
 .description {
     font-size: 18px;
     font-style: italic;
@@ -146,7 +141,6 @@ section {
 }
 
 /*List*/
-
 .list {
     list-style-position: inside;
     margin: 35px auto;
@@ -164,7 +158,6 @@ section {
 }
 
 /*Text*/
-
 .text {
     width: 40%;
     margin: 50px auto;
@@ -178,7 +171,6 @@ section {
 }
 
 /*Projects*/
-
 .projects {
     margin: 0 auto;
     padding: 10px;
@@ -214,8 +206,6 @@ section {
     width: 80px;
     margin: 20px 0;
     padding: 8px 18px;
-
-    cursor: pointer;
     
     border: 2px solid #333;
     border-radius: 5px;
@@ -244,8 +234,6 @@ section {
     width: 80px;
     margin-left: 14px;
 
-    cursor: pointer;
-
     padding: 8px 18px;
     
     border: 2px solid #333;
@@ -272,7 +260,6 @@ section {
 }
 
 /*Upcoming*/
-
 .upcoming {
     margin: 0 auto;
     padding: 10px;
@@ -288,7 +275,6 @@ section {
 }
 
 /*Footer*/
-
 footer {
     padding: 15px;
     background-color: #333;
@@ -302,15 +288,12 @@ footer {
 }
 
 
-
-
 /*Media*/
 @media (max-width: 1260px) {
     .project-item {
         width: 35%;
         margin: 60px auto 15px;
         padding: 25px 30px;
-        
         border: 2px solid transparent;
         box-shadow: 1px 1px 5px 1px #ccc;
     }
@@ -322,16 +305,12 @@ footer {
         margin: 0 auto;
         padding: 15px 50px 10px;
         width: 60%;
-    
         font-size: 20px;
         text-align: center;
-    
         border: 2px solid transparent;
         box-shadow: 1px 1px 5px 1px #333;
-    
         background-color: #fff;
         border-radius: 3px;
-    
         position: relative;
         top: 15vh;
     }
@@ -347,10 +326,8 @@ footer {
         width: 35%;
         margin: 30px auto 15px;
         padding: 25px;
-        
         border: 2px solid transparent;
         box-shadow: 1px 1px 5px 1px #ccc;
-
         font-size: 16px;
     }
 
@@ -358,48 +335,35 @@ footer {
         width: 80px;
         margin: 0;
         padding: 8px 18px;
-    
-        cursor: pointer;
-        
         border: 2px solid #333;
         border-radius: 5px;
-        
         background-color: #333;
         text-align: center;
         text-decoration: none;
         color: #fff;
         text-align: center;
-    
         color: #fff;
         font-family: "Open Sans", sans-serif;
-    
         transition: opacity .1s linear;
     }
 
     /*List*/
-
     .list {
         list-style-position: inside;
         margin: 20px auto;
         width: 80%;
         padding: 0;
-
         text-align: center;
-
         font-size: 19px;
         line-height: 1.8;
     }
 
     /*Text*/
-
     .text {
         width: 45%;
         margin: 50px auto;
-
         text-align: center;
-
         padding: 23px 8px;
-
         border: 2px solid transparent;
         box-shadow: 1px 1px 5px 1px #ccc
     }
@@ -413,16 +377,12 @@ footer {
             padding: 15px 50px 10px;
             width: 60%;
             height: auto;
-        
             font-size: 20px;
             text-align: center;
-        
             border: 2px solid transparent;
             box-shadow: 1px 1px 5px 1px #333;
-        
             background-color: #fff;
             border-radius: 3px;
-        
             position: relative;
             top: 20vh;
         }
@@ -434,33 +394,22 @@ footer {
         }
 
         /*List*/
-
         .list {
             list-style-position: inside;
             margin: 20px auto;
             width: 75%;
             padding: 0;
-
             text-align: center;
-
             font-size: 18px;
             line-height: 2;
         }
 
-        .li {
-            font-weight: 400;
-        }
-
         /*Text*/
-
         .text {
             width: 50%;
             margin: 40px auto;
-
             text-align: center;
-
             padding: 22px 7px;
-
             border: 2px solid transparent;
             box-shadow: 1px 1px 5px 1px #ccc
         }
@@ -473,16 +422,12 @@ footer {
         padding: 15px 50px 10px;
         width: 60%;
         height: auto;
-    
         font-size: 18px;
         text-align: center;
-    
         border: 2px solid transparent;
         box-shadow: 1px 1px 5px 1px #333;
-    
         background-color: #fff;
         border-radius: 3px;
-    
         position: relative;
         top: 15vh;
     }
@@ -519,7 +464,6 @@ footer {
 
     .about-text {
         margin: 5px auto;
-    
         text-align: center;
         font-weight: 300;
         font-style: italic;
@@ -535,11 +479,9 @@ footer {
     .header::after {
         content: "";
         display: block;
-    
         height: 4px;
         width: 50px;
         margin: 30px auto 40px;
-    
         background-color: #333;
     }
     
@@ -553,33 +495,22 @@ footer {
     }
 
     /*List*/
-
     .list {
         list-style-position: inside;
         margin: 18px auto;
         width: 75%;
         padding: 0;
-
         text-align: center;
-
         font-size: 18px;
         line-height: 2;
     }
 
-    .li {
-        font-weight: 400;
-    }
-
     /*Text*/
-
     .text {
         width: 50%;
         margin: 30px auto;
-
         text-align: center;
-
         padding: 20px 5px;
-
         border: 2px solid transparent;
         box-shadow: 1px 1px 5px 1px #ccc
     }
@@ -595,10 +526,8 @@ footer {
         width: 45%;
         margin: 20px auto;
         padding: 10px 15px 0;
-        
         border: 2px solid transparent;
         box-shadow: 1px 1px 5px 1px #ccc;
-
         font-size: 14px;
     }
 
@@ -616,21 +545,15 @@ footer {
         width: 80px;
         margin: 0 auto;
         padding: 8px 18px;
-    
-        cursor: pointer;
-        
         border: 2px solid #333;
         border-radius: 5px;
-        
         background-color: #333;
         text-decoration: none;
         color: #fff;
         text-align: center;
         font-size: 13px;
-    
         color: #fff;
         font-family: "Open Sans", sans-serif;
-    
         transition: opacity .15s linear;
     }
 
@@ -638,20 +561,13 @@ footer {
         width: 80px;
         margin-left: 14px;
         padding: 8px 18px;
-
-        cursor: pointer;
-        
         border: 2px solid #333;
         border-radius: 5px;
-
         background-color: #fff;
         text-align: center;
         text-decoration: none;
-    
         color: #333;
         font-family: "Open Sans", sans-serif;
-    
-    
         transition: color .15s linear;
         transition: background-color .15s linear;
     }
@@ -667,10 +583,8 @@ footer {
         width: 45%;
         margin: 60px auto;
         padding: 15px 30px;
-        
         border: 2px solid transparent;
         box-shadow: 1px 1px 5px 1px #ccc;
-
         font-size: 14px;
     }
 
@@ -686,16 +600,12 @@ footer {
         padding: 15px 50px 10px;
         width: 65%;
         height: auto;
-    
         font-size: 18px;
         text-align: center;
-    
         border: 2px solid transparent;
         box-shadow: 1px 1px 5px 1px #333;
-    
         background-color: #fff;
         border-radius: 3px;
-    
         position: relative;
         top: 12vh;
     }
@@ -717,15 +627,6 @@ footer {
         text-align: left;
     }
 
-    .about-text {
-        margin: 5px auto;
-    
-        text-align: center;
-        font-weight: 300;
-        font-style: italic;
-        color: #808080;
-    }
-
     /*Header*/
     .header {
         text-align: center;
@@ -734,7 +635,6 @@ footer {
 
     .about-text {
         margin: 5px auto;
-    
         text-align: center;
         font-weight: 300;
         font-style: italic;
@@ -758,15 +658,9 @@ footer {
         margin: 18px auto;
         width: 75%;
         padding: 0;
-
         text-align: center;
-
         font-size: 18px;
         line-height: 2;
-    }
-
-    .li {
-        font-weight: 400;
     }
 
     /*Text*/
@@ -774,11 +668,8 @@ footer {
     .text {
         width: 70%;
         margin: 30px auto;
-
         text-align: center;
-
         padding: 15px 5px;
-
         border: 2px solid transparent;
         box-shadow: 1px 1px 5px 1px #ccc
     }
@@ -794,10 +685,8 @@ footer {
         width: 45%;
         margin: 20px auto;
         padding: 10px 15px 0;
-        
         border: 2px solid transparent;
         box-shadow: 1px 1px 5px 1px #ccc;
-
         font-size: 14px;
     }
 
@@ -815,21 +704,15 @@ footer {
         width: 80px;
         margin: 0 auto;
         padding: 8px 18px;
-
-        cursor: pointer;
-        
         border: 2px solid #333;
         border-radius: 5px;
-        
         background-color: #333;
         text-decoration: none;
         color: #fff;
         text-align: center;
         font-size: 13px;
-
         color: #fff;
         font-family: "Open Sans", sans-serif;
-
         transition: opacity .15s linear;
     }
 
@@ -837,26 +720,18 @@ footer {
         width: 80px;
         margin-left: 14px;
         padding: 8px 18px;
-
-        cursor: pointer;
-        
         border: 2px solid #333;
         border-radius: 5px;
-
         background-color: #fff;
         text-align: center;
         text-decoration: none;
-
         color: #333;
         font-family: "Open Sans", sans-serif;
-
-
         transition: color .15s linear;
         transition: background-color .15s linear;
     }
 
     /*Upcoming*/
-
     .upcoming {
         margin: 0 auto;
         padding: 10px;
@@ -866,10 +741,8 @@ footer {
         width: 50%;
         margin: 60px auto;
         padding: 15px 30px;
-        
         border: 2px solid transparent;
         box-shadow: 1px 1px 5px 1px #ccc;
-
         font-size: 14px;
     }
 
@@ -880,20 +753,16 @@ footer {
 
 @media (max-width: 555px) {
     /*Projects*/
-
    .project-item {
     width: 70%;
     margin: 25px auto;
     padding: 10px 15px 0;
-    
     border: 2px solid transparent;
     box-shadow: 1px 1px 5px 1px #ccc;
-
     font-size: 14px;
     }
 
     /*Upcoming*/
-
     .upcoming {
         margin: 0 auto;
         padding: 10px;
@@ -903,10 +772,8 @@ footer {
         width: 70%;
         margin: 60px auto;
         padding: 15px 30px;
-        
         border: 2px solid transparent;
         box-shadow: 1px 1px 5px 1px #ccc;
-
         font-size: 14px;
     }
 
@@ -917,11 +784,9 @@ footer {
     footer {
         padding: 15px;
         background-color: #333;
-    
         color: #fff;
         line-height: 1.4;
         font-size: 14px;
-    
         font-weight: 300;
         font-style: italic;
         text-align: center;
@@ -935,16 +800,12 @@ footer {
         padding: 15px 50px 10px;
         width: 80%;
         height: auto;
-    
         font-size: 18px;
         text-align: center;
-    
         border: 2px solid transparent;
         box-shadow: 1px 1px 5px 1px #333;
-    
         background-color: #fff;
         border-radius: 3px;
-    
         position: relative;
         top: 18vh;
     }
@@ -968,7 +829,6 @@ footer {
 
     .about-text {
         margin: 5px auto;
-    
         text-align: center;
         font-weight: 300;
         font-style: italic;
@@ -983,7 +843,6 @@ footer {
 
     .about-text {
         margin: 5px auto;
-    
         text-align: center;
         font-weight: 300;
         font-style: italic;
@@ -1007,15 +866,9 @@ footer {
         margin: 18px auto;
         width: 75%;
         padding: 0;
-
         text-align: center;
-
         font-size: 18px;
         line-height: 2;
-    }
-
-    .li {
-        font-weight: 400;
     }
 
     /*Text*/
@@ -1023,11 +876,8 @@ footer {
     .text {
         width: 100%;
         margin: 30px auto;
-
         text-align: center;
-
         padding: 15px 5px;
-
         border: 2px solid transparent;
         box-shadow: 1px 1px 5px 1px #ccc
     }
@@ -1050,10 +900,8 @@ footer {
         width: 100%;
         margin: 25px auto;
         padding: 10px 15px 0;
-        
         border: 2px solid transparent;
         box-shadow: 1px 1px 5px 1px #ccc;
-    
         font-size: 14px;
         }
 
@@ -1061,21 +909,17 @@ footer {
         width: 100%;
         margin: 60px auto;
         padding: 15px 30px;
-        
         border: 2px solid transparent;
         box-shadow: 1px 1px 5px 1px #ccc;
-
         font-size: 14px;
     }
 
     footer {
         padding: 15px;
         background-color: #333;
-    
         color: #fff;
         line-height: 1.4;
         font-size: 16px;
-    
         font-weight: 300;
         font-style: italic;
         text-align: center;
