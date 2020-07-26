@@ -8,6 +8,7 @@
         <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
         <link rel="icon" href="images/favicon.jpg">
+        <script src="https://cdn.jsdelivr.net/npm/vue"></script>
     </head>
     <body>
         <header class="about">
@@ -31,146 +32,85 @@
                 </div>
             </div>
         </header>
-        <section class="tech-skills">
-            <h1 class="header">Technical Skills</h1>
-            <div class="description">
-                <p>Technologies/Languages in which I have experience</p>
-            </div>
-            <div class="text">
-                <div class="list">
-                    <div class="li"><i class="fab fa-python"></i> Python (2 year experience)</div>
-                    <div class="li"><i class="fab fa-html5"></i> HTML/CSS (3 year experience)</div>
-                    <div class="li"><i class="fab fa-js"></i> JavaScript (3 months experience)</div>
-                    <div class="li"><i class="fab fa-git-alt"></i> Git (3 months experience)</div>
-                    <div class="li"><i class="fab fa-telegram-plane"></i> Telegram Bot API (1 year experience)</div>
+        <main id="app">
+            <section class="tech-skills">
+                <h1 class="header">Technical Skills</h1>
+                <div class="description">
+                    <p>Technologies/Languages in which I have experience</p>
                 </div>
-            </div>
-        </section>
-
-        <section class="pref-tech">
-            <h1 class="header">Wanted Technologies</h1>
-            <div class="description">
-                <p>Technologies I would like to know and will study later</p>
-            </div>
-            <div class="text">
-                <div class="list">
-                    <div class="li"><i class="fab fa-java"></i> Java</div>
-                    <div class="li"><i class="fab fa-android"></i> Android SDK</div>
-                    <div class="li"><i class="fab fa-node-js"></i> JS Frameworks: Node.js, Vue.js, React</div>
-                    <div class="li"><i class="fas fa-file-code"></i> Typescipt</div>
-                    <div class="li"><i class="fas fa-database"></i> SQL/NoSQL</div>
-                    <div class="li"><i class="fas fa-code"></i> XML</div>
+                <div class="text">
+                    <div class="list">
+                        <div class="li"><i class="fab fa-python"></i> Python (2 year experience)</div>
+                        <div class="li"><i class="fab fa-html5"></i> HTML/CSS (3 year experience)</div>
+                        <div class="li"><i class="fab fa-js"></i> JavaScript (3 months experience)</div>
+                        <div class="li"><i class="fab fa-git-alt"></i> Git (3 months experience)</div>
+                        <div class="li"><i class="fab fa-telegram-plane"></i> Telegram Bot API (1 year experience)</div>
+                    </div>
                 </div>
-            </div>
-        </section>
-
-        <section class="soft-skills">
-            <h1 class="header">Soft Skills</h1>
-            <div class="text">
-                <div class="list">
-                    <div class="li"><i class="fas fa-language"></i> Languages: English(B1-B2), German(A2-B1), Russian(native)</div>
-                    <div class="li"><i class="far fa-address-book"></i> Responsibility & good faith</div>
-                    <div class="li"><i class="fas fa-comments"></i> Ready to work in team</div>
-                    <div class="li"><i class="fas fa-brain"></i> Creativity & problem solving</div>
+            </section>
+    
+            <section class="pref-tech">
+                <h1 class="header">Wanted Technologies</h1>
+                <div class="description">
+                    <p>Technologies I would like to know and will study later</p>
                 </div>
-            </div>
-        </section>
+                <div class="text">
+                    <div class="list">
+                        <div class="li"><i class="fab fa-java"></i> Java</div>
+                        <div class="li"><i class="fab fa-android"></i> Android SDK</div>
+                        <div class="li"><i class="fab fa-node-js"></i> JS Frameworks: Node.js, Vue.js, React</div>
+                        <div class="li"><i class="fas fa-file-code"></i> Typescipt</div>
+                        <div class="li"><i class="fas fa-database"></i> SQL/NoSQL</div>
+                        <div class="li"><i class="fas fa-code"></i> XML</div>
+                    </div>
+                </div>
+            </section>
+    
+            <section class="soft-skills">
+                <h1 class="header">Soft Skills</h1>
+                <div class="text">
+                    <div class="list">
+                        <div class="li"><i class="fas fa-language"></i> Languages: English(B1-B2), German(A2-B1), Russian(native)</div>
+                        <div class="li"><i class="far fa-address-book"></i> Responsibility & good faith</div>
+                        <div class="li"><i class="fas fa-comments"></i> Ready to work in team</div>
+                        <div class="li"><i class="fas fa-brain"></i> Creativity & problem solving</div>
+                    </div>
+                </div>
+            </section>
+    
+            <section class="projects">
+                <h1 class="header">Projects</h1>
+                <div class="project-inner">
 
-        <section class="projects">
-            <h1 class="header">Projects</h1>
-            <div class="project-inner">
+                    <div class="project-item" v-for="item in projects">
+                        <div class="project-title">
+                            <h3 class="project-header">{{ item.title }}</h3>
+                        </div>
+                        <div class="text-about">
+                            <p>{{ item.description }}</p>
+                        </div>
+                        <div class="p-links">
+                            <a v-bind:href="item.github" target="_blank"><button class="project-link">GitHub</button></a>
+                            <a v-bind:href="item.link" target="_blank"><button class="open-link">Open</button></a>
+                        </div>
+                    </div>
 
-                <div class="project-item">
-                    <div class="project-title">
-                        <h3 class="project-header">BMI-calculator</h3>
+                </div>
+            </section>
+    
+            <section class="upcoming">
+                <h1 class="header">Upcoming Projects</h1>
+                <div class="upcoming-item">
+                    <div class="upcoming-title">
+                        <h3 class="upcoming-header">Telegram Currency Bot</h3>
                     </div>
                     <div class="text-about">
-                        <p>Python console program, which calculates body mass index in various measuring systems.</p>
-                    </div>
-                    <div class="p-links">
-                        <a href="https://github.com/vasily-esipenko/BMI-Calculator" target="_blank"><button class="project-link">GitHub</button></a>
+                        <p>Advanced Telegram bot that will show currency rates, notify about changes and support at least 3 languages</p>
                     </div>
                 </div>
-
-                <div class="project-item">
-                    <div class="project-title">
-                        <h3 class="project-header">LinkBot</h3>
-                    </div>
-                    <div class="text-about">
-                        <p>Telegram bot which creates links to social network profiles out of the sent text.</p>
-                    </div>
-                    <div class="p-links">
-                        <a href="https://github.com/vasily-esipenko/LinkBot" target="_blank"><button class="project-link">GitHub</button></a>
-                        <a href="https://t.me/firstlink1_bot" target="_blank"><button class="open-link">Open</button></a>
-                    </div>
-                </div>
-
-                <div class="project-item">
-                    <div class="project-title">
-                        <h3 class="project-header">CurrencyBot</h3>
-                    </div>
-                    <div class="text-about">
-                        <p>Telegram Bot that shows currency and bitcoin rates in real time using Aiogram and SQLite.</p>
-                    </div>
-                    <div class="p-links">
-                        <a href="https://github.com/vasily-esipenko/CurrencyBot" target="_blank"><button class="project-link">GitHub</button></a>
-                        <a href="https://t.me/currencytgbot" target="_blank"><button class="open-link">Open</button></a>
-                    </div>
-                </div>
-
-                <div class="project-item">
-                    <div class="project-title">
-                        <h3 class="project-header">WeatherBot</h3>
-                    </div>
-                    <div class="text-about">
-                        <p>Telegram bot that shows weatger in various cities and countries using TelegramBot API.</p>
-                    </div>
-                    <div class="p-links">
-                        <a href="https://github.com/vasily-esipenko/WeatherBot" target="_blank"><button class="project-link">GitHub</button></a>
-                        <a href="https://t.me/weather4youbot" target="_blank"><button class="open-link">Open</button></a>
-                    </div>
-                </div>
-
-                <div class="project-item">
-                    <div class="project-title">
-                        <h3 class="project-header">Vue.js Calculator</h3>
-                    </div>
-                    <div class="text-about">
-                        <p>A simple Vue.js arithmetic calculator.</p>
-                    </div>
-                    <div class="p-links">
-                        <a href="https://github.com/vasily-esipenko/vue-calculator" target="_blank"><button class="project-link">GitHub</button></a>
-                        <a href="https://vue-calc2020.web.app/" target="_blank"><button class="open-link">Open</button></a>
-                    </div>
-                </div>
-
-                <div class="project-item">
-                    <div class="project-title">
-                        <h3 class="project-header">Vue.js Todo List</h3>
-                    </div>
-                    <div class="text-about">
-                        <p>Todo List web application with Vue.js</p>
-                    </div>
-                    <div class="p-links">
-                        <a href="https://github.com/vasily-esipenko/vue-todolist" target="_blank"><button class="project-link">GitHub</button></a>
-                        <a href="https://todo-vue2020.web.app/" target="_blank"><button class="open-link">Open</button></a>
-                    </div>
-                </div>
-                
-            </div>
-        </section>
-
-        <section class="upcoming">
-            <h1 class="header">Upcoming Projects</h1>
-            <div class="upcoming-item">
-                <div class="upcoming-title">
-                    <h3 class="upcoming-header">Telegram Currency Bot</h3>
-                </div>
-                <div class="text-about">
-                    <p>Advanced Telegram bot that will show currency rates, notify about changes and support at least 3 languages</p>
-                </div>
-            </div>
-        </section>
+            </section>
+        </main>
+    
         <footer>
             <div>Vasily Esipenko, 2020</div>
             <div class="about-links about-links--footer">
