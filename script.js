@@ -38,6 +38,16 @@ var main = new Vue({
                 github: "https://github.com/vasily-esipenko/vue-todolist",
                 link: "https://todo-vue2020.web.app/" 
             }
+        ],
+        upcoming: [
+            {
+                title: "Telegram Currency Bot",
+                description: "Telegram bot that will show currency rates, notify about changes and support at least 3 languages"
+            },
+            {
+                title: "URL Shortener",
+                description: "Web application which will give a short form of a link"
+            }
         ]
     }
 });
