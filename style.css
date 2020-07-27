@@ -1,13 +1,10 @@
 body {
     margin: 0;
     padding: 0;
-
     width: 100%;
     max-width: 100%;
     height: auto;
-
     font-family: "Open Sans", sans-serif;
-
     overflow-x: hidden;
 }
 
@@ -50,7 +47,6 @@ button:hover {
 
     background-color: #fff;
     border-radius: 3px;
-
     position: relative;
     top: 20vh;
 }
@@ -78,7 +74,6 @@ button:hover {
 
     color: #333;
     font-size: 32px;
-
     transition: opacity .1s linear;
 }
 
@@ -86,7 +81,6 @@ button:hover {
     text-decoration: none;
     color: #fff;
     font-size: 15px;
-
     padding: 0 8px;
 }
 
@@ -96,7 +90,6 @@ button:hover {
 
 .about-text {
     margin: 20px auto;
-
     text-align: center;
     font-weight: 300;
     font-style: italic;
@@ -218,7 +211,6 @@ section {
 
     color: #fff;
     font-family: "Open Sans", sans-serif;
-
     transition: opacity .1s linear;
 }
 
@@ -244,8 +236,6 @@ section {
 
     color: #333;
     font-family: "Open Sans", sans-serif;
-
-
     transition: color .15s linear;
     transition: background-color .15s linear;
 }
@@ -294,8 +284,6 @@ footer {
         width: 35%;
         margin: 60px auto 15px;
         padding: 25px 30px;
-        border: 2px solid transparent;
-        box-shadow: 1px 1px 5px 1px #ccc;
     }
 }
 
@@ -306,11 +294,6 @@ footer {
         padding: 15px 50px 10px;
         width: 60%;
         font-size: 20px;
-        text-align: center;
-        border: 2px solid transparent;
-        box-shadow: 1px 1px 5px 1px #333;
-        background-color: #fff;
-        border-radius: 3px;
         position: relative;
         top: 15vh;
     }
@@ -323,11 +306,9 @@ footer {
 
     /*Projects*/
     .project-item {
-        width: 35%;
+        width: 36%;
         margin: 30px auto 15px;
         padding: 25px;
-        border: 2px solid transparent;
-        box-shadow: 1px 1px 5px 1px #ccc;
         font-size: 16px;
     }
 
@@ -335,37 +316,22 @@ footer {
         width: 80px;
         margin: 0;
         padding: 8px 18px;
-        border: 2px solid #333;
-        border-radius: 5px;
-        background-color: #333;
-        text-align: center;
-        text-decoration: none;
-        color: #fff;
-        text-align: center;
-        color: #fff;
-        font-family: "Open Sans", sans-serif;
-        transition: opacity .1s linear;
     }
 
     /*List*/
     .list {
-        list-style-position: inside;
         margin: 20px auto;
         width: 80%;
         padding: 0;
-        text-align: center;
         font-size: 19px;
         line-height: 1.8;
     }
 
     /*Text*/
     .text {
-        width: 45%;
+        width: 56%;
         margin: 50px auto;
-        text-align: center;
         padding: 23px 8px;
-        border: 2px solid transparent;
-        box-shadow: 1px 1px 5px 1px #ccc
     }
 
 }
@@ -378,10 +344,6 @@ footer {
             width: 60%;
             height: auto;
             font-size: 20px;
-            text-align: center;
-            border: 2px solid transparent;
-            box-shadow: 1px 1px 5px 1px #333;
-            background-color: #fff;
             border-radius: 3px;
             position: relative;
             top: 20vh;
@@ -395,11 +357,9 @@ footer {
 
         /*List*/
         .list {
-            list-style-position: inside;
             margin: 20px auto;
-            width: 75%;
+            width: 76%;
             padding: 0;
-            text-align: center;
             font-size: 18px;
             line-height: 2;
         }
@@ -410,8 +370,6 @@ footer {
             margin: 40px auto;
             text-align: center;
             padding: 22px 7px;
-            border: 2px solid transparent;
-            box-shadow: 1px 1px 5px 1px #ccc
         }
 }
 
@@ -421,13 +379,7 @@ footer {
         margin: 0 auto;
         padding: 15px 50px 10px;
         width: 60%;
-        height: auto;
         font-size: 18px;
-        text-align: center;
-        border: 2px solid transparent;
-        box-shadow: 1px 1px 5px 1px #333;
-        background-color: #fff;
-        border-radius: 3px;
         position: relative;
         top: 15vh;
     }
@@ -455,8 +407,6 @@ footer {
     }
 
     .about-a--footer {
-        text-decoration: none;
-        color: #fff;
         font-size: 15px;
         margin: 0;
         text-align: left;
@@ -464,15 +414,10 @@ footer {
 
     .about-text {
         margin: 5px auto;
-        text-align: center;
-        font-weight: 300;
-        font-style: italic;
-        color: #808080;
     }
 
     /*Header*/
     .header {
-        text-align: center;
         font-size: 38px;
     }
 
@@ -488,31 +433,22 @@ footer {
     /*Description*/
     .description {
         font-size: 18px;
-        font-style: italic;
-        font-weight: 300;
-        text-align: center;
-        color: #808080;
     }
 
     /*List*/
     .list {
-        list-style-position: inside;
         margin: 18px auto;
         width: 75%;
         padding: 0;
-        text-align: center;
         font-size: 18px;
         line-height: 2;
     }
 
     /*Text*/
     .text {
-        width: 50%;
+        width: 60%;
         margin: 30px auto;
-        text-align: center;
         padding: 20px 5px;
-        border: 2px solid transparent;
-        box-shadow: 1px 1px 5px 1px #ccc
     }
 
     /*Section*/
@@ -526,8 +462,6 @@ footer {
         width: 45%;
         margin: 20px auto;
         padding: 10px 15px 0;
-        border: 2px solid transparent;
-        box-shadow: 1px 1px 5px 1px #ccc;
         font-size: 14px;
     }
 
@@ -545,46 +479,24 @@ footer {
         width: 80px;
         margin: 0 auto;
         padding: 8px 18px;
-        border: 2px solid #333;
-        border-radius: 5px;
-        background-color: #333;
-        text-decoration: none;
-        color: #fff;
-        text-align: center;
-        font-size: 13px;
-        color: #fff;
-        font-family: "Open Sans", sans-serif;
-        transition: opacity .15s linear;
     }
 
     .open-link {
         width: 80px;
         margin-left: 14px;
         padding: 8px 18px;
-        border: 2px solid #333;
-        border-radius: 5px;
-        background-color: #fff;
-        text-align: center;
-        text-decoration: none;
-        color: #333;
-        font-family: "Open Sans", sans-serif;
-        transition: color .15s linear;
-        transition: background-color .15s linear;
     }
 
     /*Upcoming*/
-
     .upcoming {
         margin: 0 auto;
         padding: 10px;
     }
 
     .upcoming-item {
-        width: 45%;
+        width: 65%;
         margin: 60px auto;
         padding: 15px 30px;
-        border: 2px solid transparent;
-        box-shadow: 1px 1px 5px 1px #ccc;
         font-size: 14px;
     }
 
@@ -598,14 +510,8 @@ footer {
     .about-content {
         margin: 0 auto;
         padding: 15px 50px 10px;
-        width: 65%;
-        height: auto;
+        width: 66%;
         font-size: 18px;
-        text-align: center;
-        border: 2px solid transparent;
-        box-shadow: 1px 1px 5px 1px #333;
-        background-color: #fff;
-        border-radius: 3px;
         position: relative;
         top: 12vh;
     }
@@ -620,8 +526,6 @@ footer {
     }
 
     .about-a--footer {
-        text-decoration: none;
-        color: #fff;
         font-size: 16px;
         margin: 0;
         text-align: left;
@@ -629,49 +533,33 @@ footer {
 
     /*Header*/
     .header {
-        text-align: center;
         font-size: 38px;
     }
 
     .about-text {
         margin: 5px auto;
-        text-align: center;
-        font-weight: 300;
-        font-style: italic;
         font-size: 18px;
-        color: #808080;
     }
 
     /*Description*/
     .description {
         font-size: 18px;
-        font-style: italic;
-        font-weight: 300;
-        text-align: center;
-        color: #808080;
     }
 
     /*List*/
-
     .list {
-        list-style-position: inside;
         margin: 18px auto;
-        width: 75%;
+        width: 76%;
         padding: 0;
-        text-align: center;
         font-size: 18px;
         line-height: 2;
     }
 
     /*Text*/
-
     .text {
-        width: 70%;
+        width: 80%;
         margin: 30px auto;
-        text-align: center;
         padding: 15px 5px;
-        border: 2px solid transparent;
-        box-shadow: 1px 1px 5px 1px #ccc
     }
 
     /*Section*/
@@ -685,8 +573,6 @@ footer {
         width: 45%;
         margin: 20px auto;
         padding: 10px 15px 0;
-        border: 2px solid transparent;
-        box-shadow: 1px 1px 5px 1px #ccc;
         font-size: 14px;
     }
 
@@ -704,31 +590,13 @@ footer {
         width: 80px;
         margin: 0 auto;
         padding: 8px 18px;
-        border: 2px solid #333;
-        border-radius: 5px;
-        background-color: #333;
-        text-decoration: none;
-        color: #fff;
-        text-align: center;
         font-size: 13px;
-        color: #fff;
-        font-family: "Open Sans", sans-serif;
-        transition: opacity .15s linear;
     }
 
     .open-link {
         width: 80px;
         margin-left: 14px;
         padding: 8px 18px;
-        border: 2px solid #333;
-        border-radius: 5px;
-        background-color: #fff;
-        text-align: center;
-        text-decoration: none;
-        color: #333;
-        font-family: "Open Sans", sans-serif;
-        transition: color .15s linear;
-        transition: background-color .15s linear;
     }
 
     /*Upcoming*/
@@ -738,16 +606,18 @@ footer {
     }
 
     .upcoming-item {
-        width: 50%;
+        width: 80%;
         margin: 60px auto;
         padding: 15px 30px;
-        border: 2px solid transparent;
-        box-shadow: 1px 1px 5px 1px #ccc;
         font-size: 14px;
     }
 
     .upcoming-title {
         font-size: 15px;
+    }
+
+    footer {
+        text-align: center;
     }
 }
 
@@ -757,14 +627,11 @@ footer {
     width: 70%;
     margin: 25px auto;
     padding: 10px 15px 0;
-    border: 2px solid transparent;
-    box-shadow: 1px 1px 5px 1px #ccc;
     font-size: 14px;
     }
 
     /*Upcoming*/
     .upcoming {
-        margin: 0 auto;
         padding: 10px;
     }
 
@@ -772,8 +639,6 @@ footer {
         width: 70%;
         margin: 60px auto;
         padding: 15px 30px;
-        border: 2px solid transparent;
-        box-shadow: 1px 1px 5px 1px #ccc;
         font-size: 14px;
     }
 
@@ -783,35 +648,24 @@ footer {
 
     footer {
         padding: 15px;
-        background-color: #333;
-        color: #fff;
         line-height: 1.4;
         font-size: 14px;
-        font-weight: 300;
-        font-style: italic;
-        text-align: center;
     }
 }
 
 @media (max-width: 414px) {
     /*About*/
     .about-content {
-        margin: 0 auto;
         padding: 15px 50px 10px;
-        width: 80%;
-        height: auto;
+        width: 90%;
         font-size: 18px;
-        text-align: center;
-        border: 2px solid transparent;
-        box-shadow: 1px 1px 5px 1px #333;
-        background-color: #fff;
-        border-radius: 3px;
         position: relative;
-        top: 18vh;
+        top: 12vh;
     }
 
     .about-header {
         font-size: 46px;
+        text-align: center;
     }
 
     .about-a {
@@ -820,72 +674,41 @@ footer {
     }
 
     .about-a--footer {
-        text-decoration: none;
-        color: #fff;
         font-size: 16px;
-        margin: 0;
-        text-align: left;
     }
 
     .about-text {
         margin: 5px auto;
-        text-align: center;
-        font-weight: 300;
-        font-style: italic;
-        color: #808080;
     }
 
     /*Header*/
     .header {
-        text-align: center;
         font-size: 38px;
     }
 
     .about-text {
         margin: 5px auto;
-        text-align: center;
-        font-weight: 300;
-        font-style: italic;
         font-size: 18px;
-        color: #808080;
     }
 
     /*Description*/
     .description {
         font-size: 18px;
-        font-style: italic;
-        font-weight: 300;
-        text-align: center;
-        color: #808080;
     }
 
     /*List*/
-
     .list {
-        list-style-position: inside;
         margin: 18px auto;
         width: 75%;
-        padding: 0;
-        text-align: center;
         font-size: 18px;
         line-height: 2;
     }
 
     /*Text*/
-
     .text {
         width: 100%;
         margin: 30px auto;
-        text-align: center;
         padding: 15px 5px;
-        border: 2px solid transparent;
-        box-shadow: 1px 1px 5px 1px #ccc
-    }
-
-    /*Section*/
-    section {
-        margin: 18px auto;
-        padding: 10px;
     }
 
     /*Header*/
@@ -895,33 +718,55 @@ footer {
     }
 
     /*Projects*/
-
     .project-item {
         width: 100%;
-        margin: 25px auto;
-        padding: 10px 15px 0;
-        border: 2px solid transparent;
-        box-shadow: 1px 1px 5px 1px #ccc;
         font-size: 14px;
         }
 
     .upcoming-item {
-        width: 100%;
+        width: 90%;
         margin: 60px auto;
         padding: 15px 30px;
-        border: 2px solid transparent;
-        box-shadow: 1px 1px 5px 1px #ccc;
         font-size: 14px;
     }
 
     footer {
-        padding: 15px;
-        background-color: #333;
-        color: #fff;
         line-height: 1.4;
         font-size: 16px;
-        font-weight: 300;
-        font-style: italic;
+    }
+}
+
+@media (max-width: 280px) {
+    .about-content {
+        width: 90%;
+        font-size: 17px;
+    }
+
+    .about-header {
+        font-size: 40px;
+    }
+
+    .about-a {
+        font-size: 22px;
+    }
+
+    /*Header*/
+    .header {
         text-align: center;
+        font-size: 34px;
+    }
+
+    .about-text {
+        font-size: 16px;
+    }
+
+    /*Description*/
+    .description {
+        font-size: 16px;
+    }
+
+    /*List*/
+    .list {
+        width: 80%;
     }
 }
