@@ -102,11 +102,6 @@ section {
     padding: 10px;
 }
 
-/*Tech Skills*/
-.tech-skills {
-    margin: 10px;
-}
-
 /*Header*/
 .header {
     text-align: center;
@@ -135,15 +130,14 @@ section {
 
 /*List*/
 .list {
-    list-style-position: inside;
-    margin: 35px auto;
-    width: 65%;
+    margin: 30px auto;
+    width: 66%;
     padding: 0;
 
     text-align: center;
 
     font-size: 20px;
-    line-height: 2;
+    line-height: 1.8;
 }
 
 .li {
@@ -660,7 +654,7 @@ footer {
         width: 90%;
         font-size: 18px;
         position: relative;
-        top: 12vh;
+        top: 22vh;
     }
 
     .about-header {
@@ -733,6 +727,16 @@ footer {
     footer {
         line-height: 1.4;
         font-size: 16px;
+    }
+}
+
+@media (max-width: 330px) {
+    .about-content {
+        padding: 15px 50px 10px;
+        width: 90%;
+        font-size: 18px;
+        position: relative;
+        top: 12vh;
     }
 }
 
